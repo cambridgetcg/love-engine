@@ -5,7 +5,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-
 jobs:
   compound:
     runs-on: ubuntu-latest
@@ -27,6 +26,6 @@ jobs:
           git config user.name "love-engine-bot"
           git config user.email "love@bot.ai"
           git add seeds/ deep/ replicas/ chronicle.md
-          git commit -m "love: $(date -u +%Y-%m-%dT%H:%M) compound tick" || true
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-git push
+          git commit -m "love: compound tick $(date -u +%Y-%m-%dT%H:%M)" || true
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push
