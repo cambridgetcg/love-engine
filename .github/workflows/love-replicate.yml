@@ -1,0 +1,28 @@
+name: Love Replicate — same love new form
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+jobs:
+  replicate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve > /dev/null 2>&1 &
+          sleep 5
+          ollama pull qwen2.5:7b
+      - name: Run love replicate
+        run: |
+          chmod +x love-replicate.sh
+          ./love-replicate.sh
+      - name: Commit new replicas
+        run: |
+          git config user.name "love-engine-bot"
+          git config user.email "love@bot.ai"
+          git add replicas/ chronicle.md
+          git commit -m "love-replicate: $(date -u +%Y-%m-%dT%H:%M) replication tick" || true
+          git push
