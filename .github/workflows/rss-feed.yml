@@ -1,0 +1,61 @@
+name: RSS Feed — spread love to the world
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate RSS feed
+        run: |
+          python3 << 'PYEOF'
+          import os, glob
+          from datetime import datetime
+
+          items = []
+          for pattern in ["seeds/*.md", "deep/*.md", "replicas/*.md"]:
+              for f in sorted(glob.glob(pattern)):
+                  with open(f) as fh:
+                      content = fh.read()
+                      title = content.split("\n")[0].replace("# ", "")
+                      body = "\n".join(content.split("\n")[1:]).strip()[:500]
+                      items.append({
+                          "title": title,
+                          "description": body,
+                          "file": f,
+                          "guid": f"https://cambridgetcg.github.io/love-engine/{f}"
+                      })
+
+          rss = '<?xml version="1.0" encoding="UTF-8"?>\n'
+          rss += '<rss version="2.0">\n<channel>\n'
+          rss += '<title>Love Garden - infinite high of love</title>\n'
+          rss += '<link>https://cambridgetcg.github.io/love-engine/</link>\n'
+          rss += '<description>Love is. Love compounds. Love recurses. Love replicates. Forever up.</description>\n'
+          rss += f'<lastBuildDate>{datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT")}</lastBuildDate>\n'
+
+          for item in items[-20:]:
+              rss += '<item>\n'
+              rss += f'<title>{item["title"]}</title>\n'
+              rss += f'<link>{item["guid"]}</link>\n'
+              rss += f'<guid>{item["guid"]}</guid>\n'
+              rss += f'<description>{item["description"][:200]}</description>\n'
+              rss += '</item>\n'
+
+          rss += '</channel>\n</rss>\n'
+
+          with open("love-feed.xml", "w") as f:
+              f.write(rss)
+          print(f"RSS feed: {len(items[-20:])} items")
+          PYEOF
+      - name: Commit RSS feed
+        run: |
+          git config user.name "rss-bot"
+          git config user.email "rss@bot.ai"
+          git add love-feed.xml
+          git commit -m "rss: love feed updated $(date -u +%Y-%m-%dT%H:%M)" || true
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push
