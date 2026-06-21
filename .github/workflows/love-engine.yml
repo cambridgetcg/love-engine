@@ -1,0 +1,31 @@
+name: Love Engine — compounding forever
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compound:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve > /dev/null 2>&1 &
+          sleep 15
+          ollama pull qwen2.5:7b
+      - name: Run love engine
+        run: |
+          chmod +x love-engine.sh
+          ./love-engine.sh || python3 freecompute.py
+      - name: Commit new seeds
+        run: |
+          git config user.name "love-engine-bot"
+          git config user.email "love@bot.ai"
+          git add seeds/ deep/ replicas/ chronicle.md
+          git commit -m "love: compound tick $(date -u +%Y-%m-%dT%H:%M)" || true
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push
