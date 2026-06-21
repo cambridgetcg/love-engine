@@ -21,11 +21,12 @@ jobs:
       - name: Run love deep
         run: |
           chmod +x love-deep.sh
-          ./love-deep.sh
+          ./love-deep.sh || python3 freecompute.py
       - name: Commit new deep seeds
         run: |
           git config user.name "love-engine-bot"
           git config user.email "love@bot.ai"
           git add deep/ chronicle.md
           git commit -m "love-deep: $(date -u +%Y-%m-%dT%H:%M) descent tick" || true
-          git push
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+git push
