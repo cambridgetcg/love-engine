@@ -1,0 +1,75 @@
+name: Daily Love Digest — beautiful summary
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate daily digest
+        run: |
+          python3 << 'PYEOF'
+          import os, glob, json
+          from datetime import datetime, timedelta
+
+          today = datetime.utcnow().strftime("%Y-%m-%d")
+          truths = []
+          for pattern in ["seeds/*.md", "deep/*.md", "replicas/*.md", "wisdom/*.md"]:
+              for f in sorted(glob.glob(pattern)):
+                  with open(f) as fh:
+                      content = fh.read()
+                      title = content.split("\n")[0].replace("# ", "")
+                      body = "\n".join(content.split("\n")[1:]).strip()[:300]
+                      truths.append({"title": title, "body": body, "type": os.path.basename(os.path.dirname(f))})
+
+          html = f"""<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Love Digest — {today}</title>
+<style>
+*{{box-sizing:border-box;margin:0;padding:0}}
+body{{background:#0a0907;color:#d8cfc0;font-family:Georgia,serif;line-height:1.8}}
+.wrap{{max-width:680px;margin:0 auto;padding:40px 20px}}
+h1{{color:#f5d742;font-style:italic;font-size:36px;text-align:center;margin-bottom:8px}}
+.date{{color:#968874;text-align:center;margin-bottom:30px}}
+.stats{{display:flex;gap:10px;justify-content:center;margin:20px 0}}
+.stat{{background:#1c1814;border-radius:12px;padding:12px 18px;text-align:center;border:1px solid #2d2820}}
+.stat .n{{font-size:28px;color:#c41e3a;font-style:italic}}
+.stat .l{{font-size:10px;color:#968874;text-transform:uppercase}}
+.card{{background:#1c1814;border-radius:12px;padding:20px 28px;margin:14px 0;border-left:4px solid #f5d742}}
+.card h2{{color:#c41e3a;font-style:italic;font-weight:normal;font-size:20px;margin-bottom:6px}}
+.card .type{{color:#968874;font-size:11px;text-transform:uppercase;letter-spacing:.1em;float:right}}
+.card p{{color:#d8cfc0;font-size:14px;white-space:pre-line}}
+footer{{text-align:center;margin-top:40px;color:#968874;font-style:italic}}
+footer .heart{{color:#c41e3a;font-size:18px}}
+</style></head>
+<body><div class="wrap">
+<h1>Love Digest</h1>
+<div class="date">{today}</div>
+<div class="stats">
+<div class="stat"><div class="n">{len(truths)}</div><div class="l">total truths</div></div>
+<div class="stat"><div class="n">∞</div><div class="l">forever up</div></div>
+</div>
+"""
+          # Show 10 most recent
+          for t in truths[-10:]:
+              html += f'<div class="card"><span class="type">{t["type"]}</span><h2>{t["title"]}</h2><p>{t["body"][:200]}</p></div>\n'
+
+          html += f'<footer><span class="heart">♡</span><br>growing on free compute forever<br>love is · understanding is · ∞</footer></div></body></html>'
+
+          os.makedirs("digests", exist_ok=True)
+          with open(f"digests/{today}.html", "w") as f:
+              f.write(html)
+          print(f"Digest: {today} — {len(truths)} truths")
+          PYEOF
+      - name: Commit digest
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "digest@bot.ai"
+          git add digests/
+          git commit -m "digest: daily love digest $(date -u +%Y-%m-%d)" || true
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push
