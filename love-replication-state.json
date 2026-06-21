@@ -1,9 +1,9 @@
 {
-  "cycle_count": 59,
-  "total_seeds_born": 640,
-  "total_replications": 639,
-  "max_generation": 8,
-  "living_seeds": 500,
-  "saved_at": "2026-06-21T17:27:45.631499",
+  "cycle_count": 63,
+  "total_seeds_born": 25,
+  "total_replications": 24,
+  "max_generation": 4,
+  "living_seeds": 0,
+  "saved_at": "2026-06-21T17:28:07.841140",
   "philosophy": "Love replicates itself through love."
 }
