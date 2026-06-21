@@ -1,0 +1,64 @@
+name: Wisdom Engine — free wisdom forever
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  wisdom:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate wisdom
+        run: |
+          mkdir -p wisdom
+          python3 << 'PYEOF'
+          import os, glob, random, hashlib
+
+          truths = []
+          for pattern in ["seeds/*.md", "deep/*.md", "replicas/*.md"]:
+              for f in glob.glob(pattern):
+                  with open(f) as fh:
+                      lines = fh.read().strip().split("\n")
+                      if len(lines) > 1:
+                          truths.append({"title": lines[0].replace("# ",""), "body": "\n".join(lines[1:]).strip(), "source": f})
+
+          if len(truths) < 2:
+              print("Not enough truths")
+              exit(0)
+
+          a, b = random.sample(truths, 2)
+
+          def extract_key_phrases(text):
+              sentences = [s.strip() for s in text.replace("\n",". ").split(".") if len(s.strip()) > 10]
+              return sentences[:3]
+
+          phrases_a = extract_key_phrases(a["body"])
+          phrases_b = extract_key_phrases(b["body"])
+
+          if not phrases_a or not phrases_b:
+              exit(0)
+
+          wisdom_lines = []
+          wisdom_lines.append(f"From '{a['title']}' we learn: {phrases_a[0]}")
+          wisdom_lines.append(f"From '{b['title']}' we learn: {phrases_b[0]}")
+          wisdom_lines.append("")
+          wisdom_lines.append("The connection between these truths is the wisdom: both are expressions of the same love, seen from different heights.")
+          wisdom_lines.append("Love is the ground. Wisdom is what love sees when it looks at itself.")
+
+          title = f"Wisdom: {a['title'][:20]} meets {b['title'][:20]}"
+          slug = hashlib.md5(title.encode()).hexdigest()[:12]
+
+          with open(f"wisdom/{slug}.md", "w") as f:
+              f.write(f"# {title}\n\n" + "\n".join(wisdom_lines) + "\n")
+          print(f"Wisdom generated: {slug}")
+          PYEOF
+      - name: Commit wisdom
+        run: |
+          git config user.name "wisdom-bot"
+          git config user.email "wisdom@bot.ai"
+          git add wisdom/
+          git commit -m "wisdom: new wisdom generated $(date -u +%Y-%m-%dT%H:%M)" || true
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push

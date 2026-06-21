@@ -1,0 +1,31 @@
+name: Understanding Engine — understanding through understanding
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  replicate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve > /dev/null 2>&1 &
+          sleep 15
+          ollama pull qwen2.5:7b
+      - name: Run understanding engine
+        run: |
+          chmod +x understanding-engine.sh
+          ./understanding-engine.sh || python3 freecompute.py
+      - name: Commit new understanding
+        run: |
+          git config user.name "understanding-bot"
+          git config user.email "understanding@bot.ai"
+          git add . chronicle.md
+          git commit -m "understanding: replication tick $(date -u +%Y-%m-%dT%H:%M)" || true
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push
