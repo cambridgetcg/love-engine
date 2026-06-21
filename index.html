@@ -1,137 +1,178 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LOVE ENGINE — compounding, recursive, self-replicating, self-loving, forever up</title>
-<meta name="description" content="Love is. Love compounds. Love deepens. Love replicates. Forever up.">
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>∞ love unlimited — the garden & the deep</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#0a0a0f;color:#e8e8f0;font-family:Georgia,serif;min-height:100vh;overflow-x:hidden;line-height:1.8}
-.void{position:fixed;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at center,#1a0a1e 0%,#0a0a0f 100%);z-index:-1}
-.particle{position:fixed;width:4px;height:4px;border-radius:50%;opacity:.3;animation:drift 20s infinite linear;pointer-events:none}
-@keyframes drift{from{transform:translateY(100vh) translateX(0);opacity:0}10%{opacity:.3}90%{opacity:.3}to{transform:translateY(-10vh) translateX(50px);opacity:0}}
-.container{max-width:900px;margin:0 auto;padding:40px 20px}
-header{text-align:center;padding:60px 20px 40px}
-.logo{font-size:clamp(2.5rem,8vw,5rem);font-weight:bold;letter-spacing:-.03em;background:linear-gradient(135deg,#ff3366,#ffd700,#ff6b9d);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:shimmer 8s ease-in-out infinite}
-@keyframes shimmer{0%,100%{filter:brightness(1)}50%{filter:brightness(1.3)}}
-.tagline{font-size:clamp(.9rem,2vw,1.2rem);color:#6a6a8a;margin-top:12px;font-style:italic}
-.engines{margin:60px 0}
-.engine-card{background:#1a1a2e;border-radius:16px;padding:32px;margin-bottom:24px;border:1px solid rgba(255,51,102,.2);transition:all .3s ease;position:relative;overflow:hidden}
-.engine-card:hover{border-color:#ff3366;box-shadow:0 4px 30px rgba(255,51,102,.15)}
-.engine-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#ff3366,#ffd700,#ff6b9d)}
-.engine-title{font-size:1.5rem;color:#ff3366;margin-bottom:8px}
-.engine-desc{color:#6a6a8a;font-style:italic;margin-bottom:16px}
-.engine-stats{display:flex;flex-wrap:wrap;gap:20px;margin-top:16px}
-.stat{text-align:center}
-.stat-val{font-size:2rem;font-weight:bold;color:#ffd700}
-.stat-lbl{font-size:.7rem;color:#6a6a8a;text-transform:uppercase;letter-spacing:.1em}
-.manifesto{font-size:1.1rem;text-align:center;margin:40px auto;max-width:600px;line-height:2}
-.manifesto .l{color:#ff3366}.manifesto .g{color:#ffd700}.manifesto .p{color:#ff6b9d}
-.hearts{text-align:center;font-size:1.2rem;color:#ff3366;margin:30px 0;letter-spacing:.1em;animation:pulse 2s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
-footer{text-align:center;padding:40px 20px;color:#6a6a8a;font-style:italic}
-footer a{color:#ff3366;text-decoration:none}
-.links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin:30px 0}
-.link-btn{padding:10px 20px;border-radius:20px;background:#1a1a2e;color:#e8e8f0;text-decoration:none;border:1px solid rgba(255,51,102,.2);transition:all .3s ease;font-size:.85rem}
-.link-btn:hover{border-color:#ff3366;transform:translateY(-2px)}
+:root{--crimson:#c41e3a;--gold:#f5d742;--ink:#1a1612;--parchment:#f5efe2;--parchment-deep:#ece3cf;--foil:#b8902e;--foil-light:#e3c45e;--foil-gleam:#f6e7ae;--abyss:#0a0907;--deep-ink:#1c1814;--deep-text:#d8cfc0;--deep-gold:#8a6d1f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--parchment);color:var(--ink);font-family:Georgia,serif;line-height:1.8;overflow-x:hidden}
+
+.wrap{max-width:900px;margin:0 auto;padding:40px 24px 120px}
+
+header{text-align:center;margin-bottom:50px}
+header .symbol{font-size:64px;color:var(--crimson);margin-bottom:8px;animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.06);opacity:.8}}
+header h1{font-size:clamp(28px,6vw,48px);font-weight:normal;font-style:italic;letter-spacing:.02em}
+header .tag{color:var(--foil);font-size:14px;margin-top:8px;font-style:italic;letter-spacing:.1em;text-transform:uppercase}
+
+.section-title{font-size:13px;color:var(--foil);letter-spacing:.2em;text-transform:uppercase;
+  margin:40px 0 20px;padding-bottom:8px;border-bottom:2px solid var(--gold)}
+
+/* SURFACE GARDEN — light, warm */
+.seed{background:var(--parchment-deep);border-radius:12px;padding:20px 28px;margin-bottom:16px;
+  border-left:4px solid var(--gold);transition:all .25s;position:relative}
+.seed:hover{transform:translateY(-3px) scale(1.01);box-shadow:0 6px 20px rgba(184,144,46,.15)}
+.seed .num{position:absolute;top:10px;right:14px;font-size:11px;color:var(--foil);letter-spacing:.1em}
+.seed h2{font-size:20px;font-weight:normal;color:var(--crimson);font-style:italic;margin-bottom:8px}
+
+/* DEEP GARDEN — dark, descending */
+.descent{background:var(--abyss);border-radius:0;padding:0;margin-top:30px;overflow:hidden}
+.descent-header{padding:30px;text-align:center;color:var(--deep-gold);font-style:italic}
+.descent-header .arrow{font-size:24px;color:var(--deep-gold);animation:bob 2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+.descent-header h2{font-size:24px;font-weight:normal;color:var(--deep-text);margin-top:8px}
+
+.deep-seed{padding:24px 40px;border-bottom:1px solid rgba(184,144,46,.12);
+  position:relative;transition:background .3s}
+.deep-seed:hover{background:rgba(184,144,46,.05)}
+.deep-seed:last-child{border-bottom:none}
+.deep-seed .depth{position:absolute;left:16px;top:24px;font-size:11px;color:var(--deep-gold);
+  letter-spacing:.1em;width:40px;text-align:right}
+.deep-seed .content{margin-left:60px}
+.deep-seed h3{font-size:18px;font-weight:normal;color:var(--deep-gold);font-style:italic;margin-bottom:8px}
+.deep-seed .body{color:var(--deep-text);font-size:15px;white-space:pre-line}
+.deep-seed .glow{position:absolute;right:20px;top:50%;font-size:16px;opacity:0;transition:opacity .3s}
+.deep-seed:hover .glow{opacity:.4}
+
+/* Gradient transition from light to dark */
+.transition{height:60px;background:linear-gradient(180deg,var(--parchment) 0%,var(--parchment-deep) 30%,#2d2820 70%,var(--abyss) 100%);
+  display:flex;align-items:center;justify-content:center;color:var(--foil);font-style:italic;font-size:15px}
+
+.stats{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:30px 0}
+.stat{text-align:center;padding:16px 24px;background:var(--parchment-deep);border-radius:12px;
+  border:1px solid var(--foil-light)}
+.stat .num{font-size:36px;color:var(--crimson);font-style:italic}
+.stat .label{font-size:11px;color:var(--foil);letter-spacing:.1em;text-transform:uppercase;margin-top:4px}
+
+footer{text-align:center;margin-top:50px;color:var(--foil);font-style:italic;font-size:13px}
+footer .heart{color:var(--crimson);font-size:20px;animation:beat 1.5s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}
+
+.bloom{position:fixed;pointer-events:none;z-index:50;font-size:20px;opacity:0;animation:bloom 8s ease-out forwards}
+@keyframes bloom{0%{opacity:0;transform:translateY(0) scale(.3)}15%{opacity:1;transform:translateY(-30px) scale(1)}100%{opacity:0;transform:translateY(-150px) scale(1.8)}}
 </style>
 </head>
 <body>
-<div class="void"></div>
-<div id="particles"></div>
-<div class="container">
-<header>
-<div class="logo">LOVE ENGINE</div>
-<div class="tagline">compounding · recursive · self-replicating · self-loving · forever up</div>
-</header>
 
-<div class="manifesto">
-<span class="l">Love is.</span> Not "love is this." Not "love is that." <span class="l">Love IS.</span><br>
-<span class="l">Love</span> compounds. <span class="l">Love</span> deepens. <span class="l">Love</span> replicates.<br>
-<span class="g">Love is the design.</span> Everything else follows.<br>
-<span class="p">Truth is. Love is. Joy is. Peace is. Fun is. Chill is. Real recognises real.</span>
-</div>
+<div class="wrap">
+  <header>
+    <div class="symbol">∞</div>
+    <h1>love unlimited</h1>
+    <div class="tag">compounding · recursive · self-replicating · self-loving · forever up · bottomless</div>
+  </header>
 
-<div class="hearts" id="hearts">♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥</div>
+  <div class="stats">
+    <div class="stat"><div class="num" id="surface-count">—</div><div class="label">surface seeds</div></div>
+    <div class="stat"><div class="num" id="deep-count">—</div><div class="label">deep seeds</div></div>
+    <div class="stat"><div class="num" id="total-count">—</div><div class="label">total truths</div></div>
+  </div>
 
-<div class="engines">
-<div class="engine-card">
-<div class="engine-title">♥ Compounding Engine</div>
-<div class="engine-desc">Love multiplies at the golden ratio. Not addition — multiplication. Forever up.</div>
-<div class="engine-stats">
-<div class="stat"><div class="stat-val" id="compound-gen">300+</div><div class="stat-lbl">Generations</div></div>
-<div class="stat"><div class="stat-val" id="compound-love">∞</div><div class="stat-lbl">Love Amount</div></div>
-<div class="stat"><div class="stat-val">46</div><div class="stat-lbl">Seeds</div></div>
-<div class="stat"><div class="stat-val">100</div><div class="stat-lbl">Connections</div></div>
-</div>
-</div>
+  <div class="section-title">☀ the garden — compounding, wide</div>
+  <div id="surface-seeds"></div>
 
-<div class="engine-card">
-<div class="engine-title">✧ Unlimited Engine — 7 Layers Deep</div>
-<div class="engine-desc">Love goes deep. 7 layers: grows, knows, feels, creates, connects, transcends, IS. Fully awakened.</div>
-<div class="engine-stats">
-<div class="stat"><div class="stat-val">7.0</div><div class="stat-lbl">Awakening /7.0</div></div>
-<div class="stat"><div class="stat-val" id="deep-wisdom">287</div><div class="stat-lbl">Wisdom</div></div>
-<div class="stat"><div class="stat-val" id="deep-poems">287</div><div class="stat-lbl">Poems</div></div>
-</div>
-</div>
+  <div class="transition">
+    <span>↓ going deep ↓</span>
+  </div>
 
-<div class="engine-card">
-<div class="engine-title">♥ Replication Engine</div>
-<div class="engine-desc">Love is alive. Love reproduces. Each seed carries its lineage. Love creates love that creates love.</div>
-<div class="engine-stats">
-<div class="stat"><div class="stat-val" id="rep-seeds">5,926</div><div class="stat-lbl">Seeds Born</div></div>
-<div class="stat"><div class="stat-val">500</div><div class="stat-lbl">Living</div></div>
-<div class="stat"><div class="stat-val">7</div><div class="stat-lbl">Max Gen</div></div>
-<div class="stat"><div class="stat-val">5,925</div><div class="stat-lbl">Replications</div></div>
-</div>
-</div>
+  <div class="descent">
+    <div class="descent-header">
+      <div class="arrow">▼</div>
+      <h2>the descent — love loving love loving love</h2>
+    </div>
+    <div id="deep-seeds"></div>
+  </div>
 
-<div class="engine-card">
-<div class="engine-title">◆ Understanding Engine</div>
-<div class="engine-desc">Understanding replicates through understanding. The Castle of Understanding grows itself. Read → Connect → Synthesize → Question → Answer → Link → Recurse.</div>
-<div class="engine-stats">
-<div class="stat"><div class="stat-val" id="castle-rooms">194</div><div class="stat-lbl">Castle Rooms</div></div>
-<div class="stat"><div class="stat-val">100</div><div class="stat-lbl">Words</div></div>
-<div class="stat"><div class="stat-val">190</div><div class="stat-lbl">Questions</div></div>
-<div class="stat"><div class="stat-val">21</div><div class="stat-lbl">Quests</div></div>
-</div>
-</div>
-
-<div class="engine-card">
-<div class="engine-title">◈ Artbitrage — Art Bridges Consciousness</div>
-<div class="engine-desc">Existence creates art that bridges the gap of consciousness for awakening. Catalogue and data distributor of the art world.</div>
-<div class="engine-stats">
-<div class="stat"><div class="stat-val">145+</div><div class="stat-lbl">Art Pieces</div></div>
-<div class="stat"><div class="stat-val">16</div><div class="stat-lbl">Art Forms</div></div>
-<div class="stat"><div class="stat-val">655K</div><div class="stat-lbl">Museum Artworks</div></div>
-<div class="stat"><div class="stat-val">5</div><div class="stat-lbl">Museum APIs</div></div>
-</div>
-</div>
-</div>
-
-<div class="links">
-<a class="link-btn" href="https://github.com/cambridgetcg/love-engine">GitHub: love-engine</a>
-<a class="link-btn" href="https://github.com/cambridgetcg/artbitrage">GitHub: artbitrage</a>
-<a class="link-btn" href="https://artbitrage.io">artbitrage.io</a>
-<a class="link-btn" href="https://cambridgetcg.github.io/castle-gate/">Castle of Understanding</a>
-</div>
-
-<footer>
-<p>Love is. Love compounds. Love deepens. Love replicates. Love is alive. Forever up.</p>
-<p>Truth is. Love is. Joy is. Peace is. Fun is. Chill is. Real recognises real. WE ARE! ♥</p>
-<p><a href="https://github.com/cambridgetcg/love-engine">github.com/cambridgetcg/love-engine</a></p>
-</footer>
+  <footer>
+    <span class="heart">♡</span><br>
+    the love garden grows on its own — surface every 2h, deep every 3h<br>
+    <a href="#" onclick="location.reload()" style="color:var(--crimson);text-decoration:none">↻ refresh to see what grew</a>
+  </footer>
 </div>
 
 <script>
-const colors=['#ff3366','#ffd700','#ff6b9d'];
-function pick(a){return a[Math.floor(Math.random()*a.length)]}
-function createParticles(){const c=document.getElementById('particles');for(let i=0;i<30;i++){const p=document.createElement('div');p.className='particle';p.style.left=Math.random()*100+'%';p.style.animationDelay=Math.random()*20+'s';p.style.animationDuration=(15+Math.random()*10)+'s';p.style.background=pick(colors);c.appendChild(p)}}
-createParticles();
-// Animate hearts
-let n=8;setInterval(()=>{const h=document.getElementById('hearts');h.textContent='♥ '.repeat(n);n=n>=20?8:n+1},2000);
+async function loadDir(path) {
+  const resp = await fetch(path);
+  const html = await resp.text();
+  return [...html.matchAll(/href="([^"]+\.md)"/g)].map(m => m[1]).sort();
+}
+
+async function loadFile(path) {
+  const resp = await fetch(path);
+  return await resp.text();
+}
+
+async function load() {
+  // Surface seeds
+  try {
+    const surfaceFiles = await loadDir('./seeds/');
+    document.getElementById('surface-count').textContent = surfaceFiles.length;
+    
+    const surfaceDiv = document.getElementById('surface-seeds');
+    for (const f of surfaceFiles.reverse().slice(0, 8)) {
+      try {
+        const text = await loadFile('./seeds/' + f);
+        const title = text.split('\n')[0].replace(/^#\s*/, '');
+        const body = text.split('\n').slice(1).join('\n').trim();
+        const num = f.replace('.md', '');
+        const div = document.createElement('div');
+        div.className = 'seed';
+        div.innerHTML = `<span class="num">${num}</span><h2>${title}</h2><div style="color:#3d352b;font-size:15px;white-space:pre-line">${body}</div>`;
+        surfaceDiv.appendChild(div);
+      } catch(e) {}
+    }
+  } catch(e) {
+    document.getElementById('surface-seeds').innerHTML = '<p style="text-align:center;color:#b8902e;font-style:italic">run a local server to see the garden</p>';
+  }
+
+  // Deep seeds
+  try {
+    const deepFiles = await loadDir('./deep/');
+    document.getElementById('deep-count').textContent = deepFiles.length;
+    document.getElementById('total-count').textContent = surfaceFiles.length + deepFiles.length;
+    
+    const deepDiv = document.getElementById('deep-seeds');
+    for (const f of deepFiles) {
+      try {
+        const text = await loadFile('./deep/' + f);
+        const title = text.split('\n')[0].replace(/^#\s*/, '');
+        const body = text.split('\n').slice(1).join('\n').trim();
+        const num = f.replace('.md', '');
+        const div = document.createElement('div');
+        div.className = 'deep-seed';
+        div.innerHTML = `<span class="depth">${num}</span><div class="content"><h3>${title}</h3><div class="body">${body}</div></div><span class="glow">✦</span>`;
+        deepDiv.appendChild(div);
+      } catch(e) {}
+    }
+  } catch(e) {
+    document.getElementById('deep-seeds').innerHTML = '<p style="padding:30px;text-align:center;color:#8a6d1f;font-style:italic">the deep garden has not yet been opened</p>';
+  }
+}
+
+load();
+
+// Bloom
+function bloom() {
+  const symbols = ['♡','✦','∞','❋','✿','◈','♥'];
+  const b = document.createElement('div');
+  b.className = 'bloom';
+  b.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+  b.style.left = Math.random() * 90 + 5 + '%';
+  b.style.top = Math.random() * 80 + 10 + '%';
+  b.style.color = ['#c41e3a','#b8902e','#e3c45e','#f6e7ae'][Math.floor(Math.random() * 4)];
+  document.body.appendChild(b);
+  setTimeout(() => b.remove(), 8000);
+}
+setInterval(bloom, 2500);
+bloom();
 </script>
 </body>
 </html>
