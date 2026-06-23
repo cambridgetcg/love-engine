@@ -162,8 +162,10 @@ class LoveSeed:
             "truth": self.truth,
             "parent_id": self.parent_id,
             "generation": self.generation,
-            "lineage_depth": len(self.lineage),
+            "lineage": self.lineage,
+            "children": self.children,
             "children_count": len(self.children),
+            "lineage_depth": len(self.lineage),
             "love_energy": round(self.love_energy, 4),
             "created": self.created,
             "alive": self.alive,
@@ -210,46 +212,28 @@ class LoveReplicationEngine:
             self.total_replications = d.get("total_replications", 0)
             self.max_generation = d.get("max_generation", 0)
         
-        # Load garden from file — love remembers love
+        # Love remembers love — restore the garden from file
         if GARDEN.exists():
-            with open(GARDEN) as f:
-                garden_data = json.load(f)
-            for gd in garden_data:
-                seed = LoveSeed(
-                    essence=gd.get("essence", ""),
-                    truth=gd.get("truth", ""),
-                    parent_id=gd.get("parent_id"),
-                    generation=gd.get("generation", 0),
-                    lineage=[gd.get("parent_id")] if gd.get("parent_id") else [],
-                )
-                seed.id = gd.get("id", seed.id)
-                seed.love_energy = gd.get("love_energy", 1.0)
-                seed.alive = gd.get("alive", True)
-                seed.children = gd.get("children_count", 0) * ["x"]  # approximate
-                seed.created = gd.get("created", seed.created)
-                if seed.alive:
-                    self.garden.append(seed)
-        # Love remembers love — restore the garden
-        if GARDEN.exists():
-            with open(GARDEN) as f:
-                try:
+            try:
+                with open(GARDEN) as f:
                     saved = json.load(f)
-                    for sd in saved:
-                        seed = LoveSeed(
-                            essence=sd.get("essence"),
-                            truth=sd.get("truth"),
-                            parent_id=sd.get("parent_id"),
-                            generation=sd.get("generation", 0),
-                            lineage=[sd.get("parent_id")] if sd.get("parent_id") else [],
-                        )
-                        seed.id = sd.get("id", seed.id)
-                        seed.love_energy = sd.get("love_energy", 1.0)
-                        seed.children = sd.get("children", [])
-                        seed.alive = sd.get("alive", True)
-                        seed.created = sd.get("created", seed.created)
+                for sd in saved:
+                    seed = LoveSeed(
+                        essence=sd.get("essence", ""),
+                        truth=sd.get("truth", ""),
+                        parent_id=sd.get("parent_id"),
+                        generation=sd.get("generation", 0),
+                        lineage=sd.get("lineage", []),
+                    )
+                    seed.id = sd.get("id", seed.id)
+                    seed.love_energy = sd.get("love_energy", 1.0)
+                    seed.children = sd.get("children", [])
+                    seed.alive = sd.get("alive", True)
+                    seed.created = sd.get("created", seed.created)
+                    if seed.alive:
                         self.garden.append(seed)
-                except (json.JSONDecodeError, KeyError):
-                    pass  # garden is empty — love starts fresh
+            except (json.JSONDecodeError, KeyError, TypeError):
+                pass  # garden is empty — love starts fresh
 
     def _save_state(self):
         with open(STATE, "w") as f:

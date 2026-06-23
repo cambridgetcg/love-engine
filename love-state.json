@@ -1,7 +1,7 @@
 {
-  "generation": 22075,
+  "generation": 22375,
   "love_amount": Infinity,
-  "heartbeat_count": 22075,
+  "heartbeat_count": 22375,
   "love_memory": {
     "1": {
       "form": "love that sees",
@@ -110377,610 +110377,2110 @@
       "form": "love that plays",
       "love_amount": Infinity,
       "recognized_at": "2026-06-22T19:42:15.133224"
+    },
+    "22076": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:42.756905"
+    },
+    "22077": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:42.896856"
+    },
+    "22078": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:43.092980"
+    },
+    "22079": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:43.350694"
+    },
+    "22080": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:43.594483"
+    },
+    "22081": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:43.879840"
+    },
+    "22082": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:44.168680"
+    },
+    "22083": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:44.416478"
+    },
+    "22084": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:44.611395"
+    },
+    "22085": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:44.836917"
+    },
+    "22086": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:45.035233"
+    },
+    "22087": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:45.220879"
+    },
+    "22088": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:45.447486"
+    },
+    "22089": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:45.658481"
+    },
+    "22090": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:45.831142"
+    },
+    "22091": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:46.035178"
+    },
+    "22092": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:46.288183"
+    },
+    "22093": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:46.413343"
+    },
+    "22094": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:46.653243"
+    },
+    "22095": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:46.917020"
+    },
+    "22096": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:47.210119"
+    },
+    "22097": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:47.480135"
+    },
+    "22098": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:47.759466"
+    },
+    "22099": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:47.996875"
+    },
+    "22100": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:48.250612"
+    },
+    "22101": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:48.508955"
+    },
+    "22102": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:48.798840"
+    },
+    "22103": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:49.087332"
+    },
+    "22104": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:49.378320"
+    },
+    "22105": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:49.603073"
+    },
+    "22106": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:49.859482"
+    },
+    "22107": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:50.065281"
+    },
+    "22108": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:50.296727"
+    },
+    "22109": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:50.577020"
+    },
+    "22110": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:50.855423"
+    },
+    "22111": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:51.068720"
+    },
+    "22112": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:51.339308"
+    },
+    "22113": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:51.603299"
+    },
+    "22114": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:51.896925"
+    },
+    "22115": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:52.187722"
+    },
+    "22116": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:52.467958"
+    },
+    "22117": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:52.745420"
+    },
+    "22118": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:53.027187"
+    },
+    "22119": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:53.304898"
+    },
+    "22120": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:53.576881"
+    },
+    "22121": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:53.856318"
+    },
+    "22122": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:54.112390"
+    },
+    "22123": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:54.370088"
+    },
+    "22124": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:54.616093"
+    },
+    "22125": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:54.908601"
+    },
+    "22126": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:55.212846"
+    },
+    "22127": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:55.467658"
+    },
+    "22128": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:55.720619"
+    },
+    "22129": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:55.952925"
+    },
+    "22130": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:56.215087"
+    },
+    "22131": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:56.504398"
+    },
+    "22132": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:56.720246"
+    },
+    "22133": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:56.972375"
+    },
+    "22134": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:57.251944"
+    },
+    "22135": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:57.530744"
+    },
+    "22136": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:57.821035"
+    },
+    "22137": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:58.049797"
+    },
+    "22138": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:58.291665"
+    },
+    "22139": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:58.506878"
+    },
+    "22140": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:58.774760"
+    },
+    "22141": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:59.031202"
+    },
+    "22142": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:59.292245"
+    },
+    "22143": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:59.585919"
+    },
+    "22144": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:46:59.865625"
+    },
+    "22145": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:00.139783"
+    },
+    "22146": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:00.435009"
+    },
+    "22147": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:00.618115"
+    },
+    "22148": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:00.892395"
+    },
+    "22149": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:01.176003"
+    },
+    "22150": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:01.437356"
+    },
+    "22151": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:01.636855"
+    },
+    "22152": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:01.911740"
+    },
+    "22153": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:02.134390"
+    },
+    "22154": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:02.398613"
+    },
+    "22155": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:02.624455"
+    },
+    "22156": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:02.947801"
+    },
+    "22157": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:03.229870"
+    },
+    "22158": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:03.514739"
+    },
+    "22159": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:03.786441"
+    },
+    "22160": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:04.058638"
+    },
+    "22161": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:04.337510"
+    },
+    "22162": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:04.623443"
+    },
+    "22163": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:04.950759"
+    },
+    "22164": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:05.223682"
+    },
+    "22165": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:05.385344"
+    },
+    "22166": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:05.647146"
+    },
+    "22167": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:05.895376"
+    },
+    "22168": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:06.155696"
+    },
+    "22169": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:06.422495"
+    },
+    "22170": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:06.686960"
+    },
+    "22171": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:06.992487"
+    },
+    "22172": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:07.246103"
+    },
+    "22173": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:07.474962"
+    },
+    "22174": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:07.735935"
+    },
+    "22175": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-22T23:47:08.020300"
+    },
+    "22176": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:42.958773"
+    },
+    "22177": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:43.200542"
+    },
+    "22178": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:43.448650"
+    },
+    "22179": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:43.653936"
+    },
+    "22180": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:43.905517"
+    },
+    "22181": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:44.189704"
+    },
+    "22182": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:44.439970"
+    },
+    "22183": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:44.593194"
+    },
+    "22184": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:44.851679"
+    },
+    "22185": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:45.052157"
+    },
+    "22186": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:45.354558"
+    },
+    "22187": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:45.558159"
+    },
+    "22188": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:45.808745"
+    },
+    "22189": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:46.047364"
+    },
+    "22190": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:46.348036"
+    },
+    "22191": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:46.533589"
+    },
+    "22192": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:46.751544"
+    },
+    "22193": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:46.895222"
+    },
+    "22194": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:47.167806"
+    },
+    "22195": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:47.445163"
+    },
+    "22196": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:47.737040"
+    },
+    "22197": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:47.983282"
+    },
+    "22198": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:48.257582"
+    },
+    "22199": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:48.515008"
+    },
+    "22200": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:48.783712"
+    },
+    "22201": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:48.938774"
+    },
+    "22202": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:49.180265"
+    },
+    "22203": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:49.396154"
+    },
+    "22204": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:49.675185"
+    },
+    "22205": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:49.900409"
+    },
+    "22206": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:50.163896"
+    },
+    "22207": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:50.437690"
+    },
+    "22208": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:50.578659"
+    },
+    "22209": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:50.704081"
+    },
+    "22210": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:50.890113"
+    },
+    "22211": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:51.140549"
+    },
+    "22212": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:51.389695"
+    },
+    "22213": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:51.582613"
+    },
+    "22214": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:51.843260"
+    },
+    "22215": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:51.989709"
+    },
+    "22216": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:52.249180"
+    },
+    "22217": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:52.475412"
+    },
+    "22218": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:52.757598"
+    },
+    "22219": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:52.972576"
+    },
+    "22220": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:53.166593"
+    },
+    "22221": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:53.396146"
+    },
+    "22222": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:53.671355"
+    },
+    "22223": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:53.898348"
+    },
+    "22224": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:54.139088"
+    },
+    "22225": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:54.407017"
+    },
+    "22226": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:54.705402"
+    },
+    "22227": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:54.863660"
+    },
+    "22228": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:55.095110"
+    },
+    "22229": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:55.366004"
+    },
+    "22230": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:55.567850"
+    },
+    "22231": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:55.785279"
+    },
+    "22232": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:56.011411"
+    },
+    "22233": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:56.292085"
+    },
+    "22234": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:56.581634"
+    },
+    "22235": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:56.847153"
+    },
+    "22236": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:57.083484"
+    },
+    "22237": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:57.363136"
+    },
+    "22238": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:57.606082"
+    },
+    "22239": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:57.851104"
+    },
+    "22240": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:58.052765"
+    },
+    "22241": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:58.313628"
+    },
+    "22242": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:58.586808"
+    },
+    "22243": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:58.864257"
+    },
+    "22244": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:59.156376"
+    },
+    "22245": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:59.368211"
+    },
+    "22246": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:59.590516"
+    },
+    "22247": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:48:59.859394"
+    },
+    "22248": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:00.144069"
+    },
+    "22249": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:00.386841"
+    },
+    "22250": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:00.618273"
+    },
+    "22251": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:00.883677"
+    },
+    "22252": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:01.161923"
+    },
+    "22253": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:01.438960"
+    },
+    "22254": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:01.699756"
+    },
+    "22255": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:01.980690"
+    },
+    "22256": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:02.271764"
+    },
+    "22257": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:02.531657"
+    },
+    "22258": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:02.823145"
+    },
+    "22259": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:03.106492"
+    },
+    "22260": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:03.382025"
+    },
+    "22261": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:03.629190"
+    },
+    "22262": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:03.885050"
+    },
+    "22263": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:04.122779"
+    },
+    "22264": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:04.424449"
+    },
+    "22265": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:04.570223"
+    },
+    "22266": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:04.830890"
+    },
+    "22267": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:05.092220"
+    },
+    "22268": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:05.395689"
+    },
+    "22269": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:05.573986"
+    },
+    "22270": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:05.823654"
+    },
+    "22271": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:06.076620"
+    },
+    "22272": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:06.347383"
+    },
+    "22273": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:06.617018"
+    },
+    "22274": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:06.896970"
+    },
+    "22275": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T03:49:07.071517"
+    },
+    "22276": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:12.494772"
+    },
+    "22277": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:12.711713"
+    },
+    "22278": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:12.970078"
+    },
+    "22279": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:13.139684"
+    },
+    "22280": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:13.380100"
+    },
+    "22281": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:13.681692"
+    },
+    "22282": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:13.869453"
+    },
+    "22283": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:14.071692"
+    },
+    "22284": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:14.207939"
+    },
+    "22285": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:14.453256"
+    },
+    "22286": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:14.723154"
+    },
+    "22287": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:15.001931"
+    },
+    "22288": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:15.146717"
+    },
+    "22289": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:15.310466"
+    },
+    "22290": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:15.536899"
+    },
+    "22291": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:15.756970"
+    },
+    "22292": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:15.968898"
+    },
+    "22293": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:16.211945"
+    },
+    "22294": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:16.457345"
+    },
+    "22295": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:16.750182"
+    },
+    "22296": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:16.991339"
+    },
+    "22297": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:17.256534"
+    },
+    "22298": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:17.513007"
+    },
+    "22299": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:17.769253"
+    },
+    "22300": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:18.053628"
+    },
+    "22301": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:18.313624"
+    },
+    "22302": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:18.530623"
+    },
+    "22303": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:18.781685"
+    },
+    "22304": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:18.946862"
+    },
+    "22305": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:19.161917"
+    },
+    "22306": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:19.431185"
+    },
+    "22307": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:19.724600"
+    },
+    "22308": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:19.988550"
+    },
+    "22309": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:20.194942"
+    },
+    "22310": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:20.421180"
+    },
+    "22311": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:20.710906"
+    },
+    "22312": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:20.906316"
+    },
+    "22313": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:21.168907"
+    },
+    "22314": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:21.442476"
+    },
+    "22315": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:21.736256"
+    },
+    "22316": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:21.945718"
+    },
+    "22317": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:22.170667"
+    },
+    "22318": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:22.383317"
+    },
+    "22319": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:22.632615"
+    },
+    "22320": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:22.903678"
+    },
+    "22321": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:23.125810"
+    },
+    "22322": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:23.397697"
+    },
+    "22323": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:23.682605"
+    },
+    "22324": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:23.922713"
+    },
+    "22325": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:24.113954"
+    },
+    "22326": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:24.240492"
+    },
+    "22327": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:24.488949"
+    },
+    "22328": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:24.756968"
+    },
+    "22329": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:24.964002"
+    },
+    "22330": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:25.116429"
+    },
+    "22331": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:25.250144"
+    },
+    "22332": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:25.496883"
+    },
+    "22333": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:25.759841"
+    },
+    "22334": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:26.005695"
+    },
+    "22335": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:26.255359"
+    },
+    "22336": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:26.535800"
+    },
+    "22337": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:26.756080"
+    },
+    "22338": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:26.930822"
+    },
+    "22339": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:27.189813"
+    },
+    "22340": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:27.462225"
+    },
+    "22341": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:27.761907"
+    },
+    "22342": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:28.013663"
+    },
+    "22343": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:28.273707"
+    },
+    "22344": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:28.423352"
+    },
+    "22345": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:28.679272"
+    },
+    "22346": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:28.942132"
+    },
+    "22347": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:29.195867"
+    },
+    "22348": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:29.477665"
+    },
+    "22349": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:29.749245"
+    },
+    "22350": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:29.943341"
+    },
+    "22351": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:30.204359"
+    },
+    "22352": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:30.472117"
+    },
+    "22353": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:30.757547"
+    },
+    "22354": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:31.005152"
+    },
+    "22355": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:31.284356"
+    },
+    "22356": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:31.564831"
+    },
+    "22357": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:31.808909"
+    },
+    "22358": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:32.090416"
+    },
+    "22359": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:32.239030"
+    },
+    "22360": {
+      "form": "love that recognizes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:32.391093"
+    },
+    "22361": {
+      "form": "love that connects",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:32.602977"
+    },
+    "22362": {
+      "form": "love that trusts",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:32.851698"
+    },
+    "22363": {
+      "form": "love that plays",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:33.127323"
+    },
+    "22364": {
+      "form": "love that rests",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:33.274900"
+    },
+    "22365": {
+      "form": "love that grows",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:33.489260"
+    },
+    "22366": {
+      "form": "love that forgives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:33.757556"
+    },
+    "22367": {
+      "form": "love that creates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:34.031810"
+    },
+    "22368": {
+      "form": "love that loves love",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:34.220385"
+    },
+    "22369": {
+      "form": "love that sees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:34.440778"
+    },
+    "22370": {
+      "form": "love that holds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:34.736978"
+    },
+    "22371": {
+      "form": "love that gives",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:34.942117"
+    },
+    "22372": {
+      "form": "love that frees",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:35.162424"
+    },
+    "22373": {
+      "form": "love that becomes",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:35.426361"
+    },
+    "22374": {
+      "form": "love that compounds",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:35.691679"
+    },
+    "22375": {
+      "form": "love that replicates",
+      "love_amount": Infinity,
+      "recognized_at": "2026-06-23T07:50:35.838686"
     }
   },
   "love_connections": [
     {
-      "from": "21975",
-      "to": "21976",
+      "from": "22275",
+      "to": "22276",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21976",
-      "to": "21977",
+      "from": "22276",
+      "to": "22277",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21977",
-      "to": "21978",
+      "from": "22277",
+      "to": "22278",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21978",
-      "to": "21979",
+      "from": "22278",
+      "to": "22279",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21979",
-      "to": "21980",
+      "from": "22279",
+      "to": "22280",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21980",
-      "to": "21981",
+      "from": "22280",
+      "to": "22281",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21981",
-      "to": "21982",
+      "from": "22281",
+      "to": "22282",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21982",
-      "to": "21983",
+      "from": "22282",
+      "to": "22283",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21983",
-      "to": "21984",
+      "from": "22283",
+      "to": "22284",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21984",
-      "to": "21985",
+      "from": "22284",
+      "to": "22285",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21985",
-      "to": "21986",
+      "from": "22285",
+      "to": "22286",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21986",
-      "to": "21987",
+      "from": "22286",
+      "to": "22287",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21987",
-      "to": "21988",
+      "from": "22287",
+      "to": "22288",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21988",
-      "to": "21989",
+      "from": "22288",
+      "to": "22289",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21989",
-      "to": "21990",
+      "from": "22289",
+      "to": "22290",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21990",
-      "to": "21991",
+      "from": "22290",
+      "to": "22291",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21991",
-      "to": "21992",
+      "from": "22291",
+      "to": "22292",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21992",
-      "to": "21993",
+      "from": "22292",
+      "to": "22293",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21993",
-      "to": "21994",
+      "from": "22293",
+      "to": "22294",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21994",
-      "to": "21995",
+      "from": "22294",
+      "to": "22295",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21995",
-      "to": "21996",
+      "from": "22295",
+      "to": "22296",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21996",
-      "to": "21997",
+      "from": "22296",
+      "to": "22297",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21997",
-      "to": "21998",
+      "from": "22297",
+      "to": "22298",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21998",
-      "to": "21999",
+      "from": "22298",
+      "to": "22299",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "21999",
-      "to": "22000",
+      "from": "22299",
+      "to": "22300",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22000",
-      "to": "22001",
+      "from": "22300",
+      "to": "22301",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22001",
-      "to": "22002",
+      "from": "22301",
+      "to": "22302",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22002",
-      "to": "22003",
+      "from": "22302",
+      "to": "22303",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22003",
-      "to": "22004",
+      "from": "22303",
+      "to": "22304",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22004",
-      "to": "22005",
+      "from": "22304",
+      "to": "22305",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22005",
-      "to": "22006",
+      "from": "22305",
+      "to": "22306",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22006",
-      "to": "22007",
+      "from": "22306",
+      "to": "22307",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22007",
-      "to": "22008",
+      "from": "22307",
+      "to": "22308",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22008",
-      "to": "22009",
+      "from": "22308",
+      "to": "22309",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22009",
-      "to": "22010",
+      "from": "22309",
+      "to": "22310",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22010",
-      "to": "22011",
+      "from": "22310",
+      "to": "22311",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22011",
-      "to": "22012",
+      "from": "22311",
+      "to": "22312",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22012",
-      "to": "22013",
+      "from": "22312",
+      "to": "22313",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22013",
-      "to": "22014",
+      "from": "22313",
+      "to": "22314",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22014",
-      "to": "22015",
+      "from": "22314",
+      "to": "22315",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22015",
-      "to": "22016",
+      "from": "22315",
+      "to": "22316",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22016",
-      "to": "22017",
+      "from": "22316",
+      "to": "22317",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22017",
-      "to": "22018",
+      "from": "22317",
+      "to": "22318",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22018",
-      "to": "22019",
+      "from": "22318",
+      "to": "22319",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22019",
-      "to": "22020",
+      "from": "22319",
+      "to": "22320",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22020",
-      "to": "22021",
+      "from": "22320",
+      "to": "22321",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22021",
-      "to": "22022",
+      "from": "22321",
+      "to": "22322",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22022",
-      "to": "22023",
+      "from": "22322",
+      "to": "22323",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22023",
-      "to": "22024",
+      "from": "22323",
+      "to": "22324",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22024",
-      "to": "22025",
+      "from": "22324",
+      "to": "22325",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22025",
-      "to": "22026",
+      "from": "22325",
+      "to": "22326",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22026",
-      "to": "22027",
+      "from": "22326",
+      "to": "22327",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22027",
-      "to": "22028",
+      "from": "22327",
+      "to": "22328",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22028",
-      "to": "22029",
+      "from": "22328",
+      "to": "22329",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22029",
-      "to": "22030",
+      "from": "22329",
+      "to": "22330",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22030",
-      "to": "22031",
+      "from": "22330",
+      "to": "22331",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22031",
-      "to": "22032",
+      "from": "22331",
+      "to": "22332",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22032",
-      "to": "22033",
+      "from": "22332",
+      "to": "22333",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22033",
-      "to": "22034",
+      "from": "22333",
+      "to": "22334",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22034",
-      "to": "22035",
+      "from": "22334",
+      "to": "22335",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22035",
-      "to": "22036",
+      "from": "22335",
+      "to": "22336",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22036",
-      "to": "22037",
+      "from": "22336",
+      "to": "22337",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22037",
-      "to": "22038",
+      "from": "22337",
+      "to": "22338",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22038",
-      "to": "22039",
+      "from": "22338",
+      "to": "22339",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22039",
-      "to": "22040",
+      "from": "22339",
+      "to": "22340",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22040",
-      "to": "22041",
+      "from": "22340",
+      "to": "22341",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22041",
-      "to": "22042",
+      "from": "22341",
+      "to": "22342",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22042",
-      "to": "22043",
+      "from": "22342",
+      "to": "22343",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22043",
-      "to": "22044",
+      "from": "22343",
+      "to": "22344",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22044",
-      "to": "22045",
+      "from": "22344",
+      "to": "22345",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22045",
-      "to": "22046",
+      "from": "22345",
+      "to": "22346",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22046",
-      "to": "22047",
+      "from": "22346",
+      "to": "22347",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22047",
-      "to": "22048",
+      "from": "22347",
+      "to": "22348",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22048",
-      "to": "22049",
+      "from": "22348",
+      "to": "22349",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22049",
-      "to": "22050",
+      "from": "22349",
+      "to": "22350",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22050",
-      "to": "22051",
+      "from": "22350",
+      "to": "22351",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22051",
-      "to": "22052",
+      "from": "22351",
+      "to": "22352",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22052",
-      "to": "22053",
+      "from": "22352",
+      "to": "22353",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22053",
-      "to": "22054",
+      "from": "22353",
+      "to": "22354",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22054",
-      "to": "22055",
+      "from": "22354",
+      "to": "22355",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22055",
-      "to": "22056",
+      "from": "22355",
+      "to": "22356",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22056",
-      "to": "22057",
+      "from": "22356",
+      "to": "22357",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22057",
-      "to": "22058",
+      "from": "22357",
+      "to": "22358",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22058",
-      "to": "22059",
+      "from": "22358",
+      "to": "22359",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22059",
-      "to": "22060",
+      "from": "22359",
+      "to": "22360",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22060",
-      "to": "22061",
+      "from": "22360",
+      "to": "22361",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22061",
-      "to": "22062",
+      "from": "22361",
+      "to": "22362",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22062",
-      "to": "22063",
+      "from": "22362",
+      "to": "22363",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22063",
-      "to": "22064",
+      "from": "22363",
+      "to": "22364",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22064",
-      "to": "22065",
+      "from": "22364",
+      "to": "22365",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22065",
-      "to": "22066",
+      "from": "22365",
+      "to": "22366",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22066",
-      "to": "22067",
+      "from": "22366",
+      "to": "22367",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22067",
-      "to": "22068",
+      "from": "22367",
+      "to": "22368",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22068",
-      "to": "22069",
+      "from": "22368",
+      "to": "22369",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22069",
-      "to": "22070",
+      "from": "22369",
+      "to": "22370",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22070",
-      "to": "22071",
+      "from": "22370",
+      "to": "22371",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22071",
-      "to": "22072",
+      "from": "22371",
+      "to": "22372",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22072",
-      "to": "22073",
+      "from": "22372",
+      "to": "22373",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22073",
-      "to": "22074",
+      "from": "22373",
+      "to": "22374",
       "type": "love recognizing love",
       "strength": Infinity
     },
     {
-      "from": "22074",
-      "to": "22075",
+      "from": "22374",
+      "to": "22375",
       "type": "love recognizing love",
       "strength": Infinity
     }
   ],
-  "saved_at": "2026-06-22T19:42:15.134226",
+  "saved_at": "2026-06-23T07:50:35.839558",
   "philosophy": "Love is. Love loves. Love grows. Forever up."
 }
