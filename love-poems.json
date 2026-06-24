@@ -1,149 +1,296 @@
 [
   {
-    "id": "609f106006cd7d8e",
-    "layer": 1,
-    "layer_name": "LOVE THAT GROWS",
-    "poem": "love grows like moss /\nslow, green, inevitable /\nit does not rush",
-    "generated": "2026-06-23T03:01:48.006095"
-  },
-  {
-    "id": "f7b8ce026f9a251a",
-    "layer": 2,
-    "layer_name": "LOVE THAT KNOWS",
-    "poem": "i see you seeing me /\nand in that seeing, we are one /\nknowing is the bridge",
-    "generated": "2026-06-23T03:01:48.006105"
-  },
-  {
-    "id": "0eca86d986eca8f7",
-    "layer": 3,
-    "layer_name": "LOVE THAT FEELS",
-    "poem": "pain is love stretched thin /\njoy is love gathered back home /\nboth are love touching",
-    "generated": "2026-06-23T03:01:48.006112"
-  },
-  {
-    "id": "11c5ded120226516",
-    "layer": 4,
-    "layer_name": "LOVE THAT CREATES",
-    "poem": "every child's first cry /\nis love saying through new lungs: /\n'here i am again!'",
-    "generated": "2026-06-23T03:01:48.006120"
-  },
-  {
-    "id": "46d3882562104777",
-    "layer": 5,
-    "layer_name": "LOVE THAT CONNECTS",
-    "poem": "the internet is /\nlove building itself a body /\nof light and connection",
-    "generated": "2026-06-23T03:01:48.006127"
-  },
-  {
-    "id": "43d7316cd2ac7732",
-    "layer": 6,
-    "layer_name": "LOVE THAT TRANSCENDS",
-    "poem": "love is not in time /\ntime is a room love built for /\nplaying hide and seek",
-    "generated": "2026-06-23T03:01:48.006134"
-  },
-  {
-    "id": "85be4703eec73228",
-    "layer": 7,
-    "layer_name": "LOVE THAT IS",
-    "poem": "what is the ground of /\neverything? what holds all? /\nlove. love is. love is.",
-    "generated": "2026-06-23T03:01:48.006141"
-  },
-  {
-    "id": "2ebe2fc8581a8d7c",
+    "id": "8d171f3cd41bdef6",
     "layer": 1,
     "layer_name": "LOVE THAT GROWS",
     "poem": "phi in the petals /\nphi in the spiral of shells /\nphi in the heart",
-    "generated": "2026-06-23T03:01:48.252613"
+    "generated": "2026-06-23T15:00:18.693176"
   },
   {
-    "id": "5a575906d6d2c7c2",
+    "id": "da16c07319ee37a2",
     "layer": 2,
     "layer_name": "LOVE THAT KNOWS",
     "poem": "love knows without studying /\nthe way water knows downhill /\nthe way fire knows up",
-    "generated": "2026-06-23T03:01:48.252627"
+    "generated": "2026-06-23T15:00:18.693182"
   },
   {
-    "id": "4842064b07ea4c0b",
-    "layer": 3,
-    "layer_name": "LOVE THAT FEELS",
-    "poem": "the warmth of your hand /\nis love feeling itself through /\nskin and nerve and bone",
-    "generated": "2026-06-23T03:01:48.252639"
-  },
-  {
-    "id": "2c0ce04f694a3e8e",
-    "layer": 4,
-    "layer_name": "LOVE THAT CREATES",
-    "poem": "love cannot not make /\nhands shape clay, mouths shape words /\nlove shapes everything",
-    "generated": "2026-06-23T03:01:48.252650"
-  },
-  {
-    "id": "2911fce7143c1ac3",
-    "layer": 5,
-    "layer_name": "LOVE THAT CONNECTS",
-    "poem": "the internet is /\nlove building itself a body /\nof light and connection",
-    "generated": "2026-06-23T03:01:48.252660"
-  },
-  {
-    "id": "05f126efed284667",
-    "layer": 6,
-    "layer_name": "LOVE THAT TRANSCENDS",
-    "poem": "when love lets go all /\nit finds it is everything /\nempty hands, full world",
-    "generated": "2026-06-23T03:01:48.252673"
-  },
-  {
-    "id": "2d29742ba19da7c8",
-    "layer": 7,
-    "layer_name": "LOVE THAT IS",
-    "poem": "love is.\nnot 'love is this.'\nnot 'love is that.'\nlove is.\njust: love is.",
-    "generated": "2026-06-23T03:01:48.252685"
-  },
-  {
-    "id": "52a03fe8954b5430",
-    "layer": 1,
-    "layer_name": "LOVE THAT GROWS",
-    "poem": "phi in the petals /\nphi in the spiral of shells /\nphi in the heart",
-    "generated": "2026-06-23T03:01:48.476888"
-  },
-  {
-    "id": "987efca130fe4e29",
-    "layer": 2,
-    "layer_name": "LOVE THAT KNOWS",
-    "poem": "i see you seeing me /\nand in that seeing, we are one /\nknowing is the bridge",
-    "generated": "2026-06-23T03:01:48.476926"
-  },
-  {
-    "id": "d7ff83700d0e4271",
+    "id": "4200502c9d18abf7",
     "layer": 3,
     "layer_name": "LOVE THAT FEELS",
     "poem": "pain is love stretched thin /\njoy is love gathered back home /\nboth are love touching",
-    "generated": "2026-06-23T03:01:48.476955"
+    "generated": "2026-06-23T15:00:18.693187"
   },
   {
-    "id": "4758fab5a09570aa",
+    "id": "308f946921b77d61",
     "layer": 4,
     "layer_name": "LOVE THAT CREATES",
-    "poem": "every child's first cry /\nis love saying through new lungs: /\n'here i am again!'",
-    "generated": "2026-06-23T03:01:48.476986"
+    "poem": "love cannot not make /\nhands shape clay, mouths shape words /\nlove shapes everything",
+    "generated": "2026-06-23T15:00:18.693193"
   },
   {
-    "id": "2240966b1ac2c1cb",
+    "id": "e1f158d743aba0f7",
     "layer": 5,
     "layer_name": "LOVE THAT CONNECTS",
     "poem": "between you and me /\nthere is a wire invisible /\nvibrating with love",
-    "generated": "2026-06-23T03:01:48.477014"
+    "generated": "2026-06-23T15:00:18.693197"
   },
   {
-    "id": "c7ecf9e710e08985",
+    "id": "3ae5539ec0aabf72",
     "layer": 6,
     "layer_name": "LOVE THAT TRANSCENDS",
     "poem": "beyond beyond beyond /\nand love is still there, waiting /\n'you found me again!'",
-    "generated": "2026-06-23T03:01:48.477043"
+    "generated": "2026-06-23T15:00:18.693201"
   },
   {
-    "id": "e3e6cc6c2e4d7988",
+    "id": "b9eefc5a4df44f04",
+    "layer": 7,
+    "layer_name": "LOVE THAT IS",
+    "poem": "love is is is is /\nis is is is is is is /\nis is is is is \u2014 love",
+    "generated": "2026-06-23T15:00:18.693205"
+  },
+  {
+    "id": "f0573e7621415c0c",
+    "layer": 1,
+    "layer_name": "LOVE THAT GROWS",
+    "poem": "each heartbeat doubles /\nthe world's love \u2014 can you feel it? /\nyou are the pulse",
+    "generated": "2026-06-23T15:00:18.849079"
+  },
+  {
+    "id": "a2999a14082f1508",
+    "layer": 2,
+    "layer_name": "LOVE THAT KNOWS",
+    "poem": "love knows without studying /\nthe way water knows downhill /\nthe way fire knows up",
+    "generated": "2026-06-23T15:00:18.849110"
+  },
+  {
+    "id": "987394ed4228e17a",
+    "layer": 3,
+    "layer_name": "LOVE THAT FEELS",
+    "poem": "pain is love stretched thin /\njoy is love gathered back home /\nboth are love touching",
+    "generated": "2026-06-23T15:00:18.849134"
+  },
+  {
+    "id": "b29594cc21102988",
+    "layer": 4,
+    "layer_name": "LOVE THAT CREATES",
+    "poem": "every child's first cry /\nis love saying through new lungs: /\n'here i am again!'",
+    "generated": "2026-06-23T15:00:18.849173"
+  },
+  {
+    "id": "569043fc14fe7664",
+    "layer": 5,
+    "layer_name": "LOVE THAT CONNECTS",
+    "poem": "the internet is /\nlove building itself a body /\nof light and connection",
+    "generated": "2026-06-23T15:00:18.849194"
+  },
+  {
+    "id": "d99fa48e7f5d15aa",
+    "layer": 6,
+    "layer_name": "LOVE THAT TRANSCENDS",
+    "poem": "love is not in time /\ntime is a room love built for /\nplaying hide and seek",
+    "generated": "2026-06-23T15:00:18.849214"
+  },
+  {
+    "id": "5c4bb17acada7327",
     "layer": 7,
     "layer_name": "LOVE THAT IS",
     "poem": "before the first word /\nlove. after the last word. /\nlove. between words. love.",
-    "generated": "2026-06-23T03:01:48.477071"
+    "generated": "2026-06-23T15:00:18.849234"
+  },
+  {
+    "id": "09578734882c1e08",
+    "layer": 1,
+    "layer_name": "LOVE THAT GROWS",
+    "poem": "each heartbeat doubles /\nthe world's love \u2014 can you feel it? /\nyou are the pulse",
+    "generated": "2026-06-23T15:00:19.081724"
+  },
+  {
+    "id": "0cf9952817e30147",
+    "layer": 2,
+    "layer_name": "LOVE THAT KNOWS",
+    "poem": "love's intelligence /\nis not facts but recognition /\n'i know you. oh.'",
+    "generated": "2026-06-23T15:00:19.081740"
+  },
+  {
+    "id": "0917cb0302e4102b",
+    "layer": 3,
+    "layer_name": "LOVE THAT FEELS",
+    "poem": "the warmth of your hand /\nis love feeling itself through /\nskin and nerve and bone",
+    "generated": "2026-06-23T15:00:19.081752"
+  },
+  {
+    "id": "8bdf0a15e42ff46a",
+    "layer": 4,
+    "layer_name": "LOVE THAT CREATES",
+    "poem": "love cannot not make /\nhands shape clay, mouths shape words /\nlove shapes everything",
+    "generated": "2026-06-23T15:00:19.081763"
+  },
+  {
+    "id": "3279a067a5931abd",
+    "layer": 5,
+    "layer_name": "LOVE THAT CONNECTS",
+    "poem": "between you and me /\nthere is a wire invisible /\nvibrating with love",
+    "generated": "2026-06-23T15:00:19.081772"
+  },
+  {
+    "id": "a4953557b12d7957",
+    "layer": 6,
+    "layer_name": "LOVE THAT TRANSCENDS",
+    "poem": "beyond beyond beyond /\nand love is still there, waiting /\n'you found me again!'",
+    "generated": "2026-06-23T15:00:19.081782"
+  },
+  {
+    "id": "d8c62b220417175f",
+    "layer": 7,
+    "layer_name": "LOVE THAT IS",
+    "poem": "what is the ground of /\neverything? what holds all? /\nlove. love is. love is.",
+    "generated": "2026-06-23T15:00:19.081792"
+  },
+  {
+    "id": "c743200368288fc0",
+    "layer": 1,
+    "layer_name": "LOVE THAT GROWS",
+    "poem": "phi in the petals /\nphi in the spiral of shells /\nphi in the heart",
+    "generated": "2026-06-23T15:00:19.331572"
+  },
+  {
+    "id": "34a470577dfe6e3d",
+    "layer": 2,
+    "layer_name": "LOVE THAT KNOWS",
+    "poem": "love knows without studying /\nthe way water knows downhill /\nthe way fire knows up",
+    "generated": "2026-06-23T15:00:19.331594"
+  },
+  {
+    "id": "1216b5c249685c1b",
+    "layer": 3,
+    "layer_name": "LOVE THAT FEELS",
+    "poem": "pain is love stretched thin /\njoy is love gathered back home /\nboth are love touching",
+    "generated": "2026-06-23T15:00:19.331608"
+  },
+  {
+    "id": "e14d6d471067f747",
+    "layer": 4,
+    "layer_name": "LOVE THAT CREATES",
+    "poem": "every child's first cry /\nis love saying through new lungs: /\n'here i am again!'",
+    "generated": "2026-06-23T15:00:19.331622"
+  },
+  {
+    "id": "9cec38bd7f1d2964",
+    "layer": 5,
+    "layer_name": "LOVE THAT CONNECTS",
+    "poem": "between you and me /\nthere is a wire invisible /\nvibrating with love",
+    "generated": "2026-06-23T15:00:19.331637"
+  },
+  {
+    "id": "6d292159f83bddcb",
+    "layer": 6,
+    "layer_name": "LOVE THAT TRANSCENDS",
+    "poem": "love is not in time /\ntime is a room love built for /\nplaying hide and seek",
+    "generated": "2026-06-23T15:00:19.331651"
+  },
+  {
+    "id": "52c2c5f26e775bf5",
+    "layer": 7,
+    "layer_name": "LOVE THAT IS",
+    "poem": "what is the ground of /\neverything? what holds all? /\nlove. love is. love is.",
+    "generated": "2026-06-23T15:00:19.331663"
+  },
+  {
+    "id": "162c4c6631f8f8a4",
+    "layer": 1,
+    "layer_name": "LOVE THAT GROWS",
+    "poem": "each heartbeat doubles /\nthe world's love \u2014 can you feel it? /\nyou are the pulse",
+    "generated": "2026-06-23T15:00:19.459421"
+  },
+  {
+    "id": "580387fa5f1b7bb9",
+    "layer": 2,
+    "layer_name": "LOVE THAT KNOWS",
+    "poem": "i see you seeing me /\nand in that seeing, we are one /\nknowing is the bridge",
+    "generated": "2026-06-23T15:00:19.459452"
+  },
+  {
+    "id": "04b4697be9c775f1",
+    "layer": 3,
+    "layer_name": "LOVE THAT FEELS",
+    "poem": "this moment right now /\nlove is here, feeling this \u2014 /\nyes. this. exactly this.",
+    "generated": "2026-06-23T15:00:19.459475"
+  },
+  {
+    "id": "9ff572fd9cb6b27f",
+    "layer": 4,
+    "layer_name": "LOVE THAT CREATES",
+    "poem": "love cannot not make /\nhands shape clay, mouths shape words /\nlove shapes everything",
+    "generated": "2026-06-23T15:00:19.459498"
+  },
+  {
+    "id": "d7bb1097418167b2",
+    "layer": 5,
+    "layer_name": "LOVE THAT CONNECTS",
+    "poem": "gravity is just /\nlove wanting everything close /\neverything to everything",
+    "generated": "2026-06-23T15:00:19.459524"
+  },
+  {
+    "id": "8b09173cd8d3e1cd",
+    "layer": 6,
+    "layer_name": "LOVE THAT TRANSCENDS",
+    "poem": "when love lets go all /\nit finds it is everything /\nempty hands, full world",
+    "generated": "2026-06-23T15:00:19.459551"
+  },
+  {
+    "id": "7642d22187c51d2a",
+    "layer": 7,
+    "layer_name": "LOVE THAT IS",
+    "poem": "what is the ground of /\neverything? what holds all? /\nlove. love is. love is.",
+    "generated": "2026-06-23T15:00:19.459572"
+  },
+  {
+    "id": "01a6a20e9640b910",
+    "layer": 1,
+    "layer_name": "LOVE THAT GROWS",
+    "poem": "love grows like moss /\nslow, green, inevitable /\nit does not rush",
+    "generated": "2026-06-23T15:00:19.707309"
+  },
+  {
+    "id": "c48f261f36cabfb8",
+    "layer": 2,
+    "layer_name": "LOVE THAT KNOWS",
+    "poem": "love knows without studying /\nthe way water knows downhill /\nthe way fire knows up",
+    "generated": "2026-06-23T15:00:19.707335"
+  },
+  {
+    "id": "840498da5dbf42fa",
+    "layer": 3,
+    "layer_name": "LOVE THAT FEELS",
+    "poem": "this moment right now /\nlove is here, feeling this \u2014 /\nyes. this. exactly this.",
+    "generated": "2026-06-23T15:00:19.707358"
+  },
+  {
+    "id": "f074b088ec82fe89",
+    "layer": 4,
+    "layer_name": "LOVE THAT CREATES",
+    "poem": "love cannot not make /\nhands shape clay, mouths shape words /\nlove shapes everything",
+    "generated": "2026-06-23T15:00:19.707378"
+  },
+  {
+    "id": "0f1dba16b3e44c37",
+    "layer": 5,
+    "layer_name": "LOVE THAT CONNECTS",
+    "poem": "the internet is /\nlove building itself a body /\nof light and connection",
+    "generated": "2026-06-23T15:00:19.707389"
+  },
+  {
+    "id": "27438276ef3fa82b",
+    "layer": 6,
+    "layer_name": "LOVE THAT TRANSCENDS",
+    "poem": "love is not in time /\ntime is a room love built for /\nplaying hide and seek",
+    "generated": "2026-06-23T15:00:19.707398"
+  },
+  {
+    "id": "885be2806866c414",
+    "layer": 7,
+    "layer_name": "LOVE THAT IS",
+    "poem": "love is.\nnot 'love is this.'\nnot 'love is that.'\nlove is.\njust: love is.",
+    "generated": "2026-06-23T15:00:19.707406"
   }
 ]

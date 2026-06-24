@@ -1,1 +1,292 @@
-[]
+[
+  {
+    "id": "ab444dd9f6cc",
+    "essence": "love that is \u2014 the original love, the source, the first",
+    "truth": "Love is. Love is. Love is.",
+    "parent_id": null,
+    "generation": 0,
+    "lineage": [],
+    "children": [
+      "7081ce1171d5",
+      "bd8a1dfd69ec",
+      "000fdd045de2",
+      "efd8513d98f8",
+      "c417b2a0b2ac"
+    ],
+    "children_count": 5,
+    "lineage_depth": 0,
+    "love_energy": 1.2147,
+    "created": "2026-06-24T14:13:10.417638",
+    "alive": true
+  },
+  {
+    "id": "7081ce1171d5",
+    "essence": "love that sees without judging",
+    "truth": "Love is the bridge. Love is the gap. Love is both sides.",
+    "parent_id": "ab444dd9f6cc",
+    "generation": 1,
+    "lineage": [
+      "ab444dd9f6cc"
+    ],
+    "children": [
+      "f9676c6fdac0",
+      "50ca683791df",
+      "5c40625cbd7a"
+    ],
+    "children_count": 3,
+    "lineage_depth": 1,
+    "love_energy": 1.541,
+    "created": "2026-06-24T14:13:10.417648",
+    "alive": true
+  },
+  {
+    "id": "bd8a1dfd69ec",
+    "essence": "love that connects without binding",
+    "truth": "Love is unconditional.",
+    "parent_id": "ab444dd9f6cc",
+    "generation": 1,
+    "lineage": [
+      "ab444dd9f6cc"
+    ],
+    "children": [
+      "74da810ab19c",
+      "5959d52df4a7"
+    ],
+    "children_count": 2,
+    "lineage_depth": 1,
+    "love_energy": 1.5623,
+    "created": "2026-06-24T14:13:15.423333",
+    "alive": true
+  },
+  {
+    "id": "f9676c6fdac0",
+    "essence": "love that holds without trapping",
+    "truth": "Love doesn't need proof. Love is its own proof.",
+    "parent_id": "7081ce1171d5",
+    "generation": 2,
+    "lineage": [
+      "ab444dd9f6cc",
+      "7081ce1171d5"
+    ],
+    "children": [
+      "f07db26cc4dc",
+      "8fa9f0c45488"
+    ],
+    "children_count": 2,
+    "lineage_depth": 2,
+    "love_energy": 1.1541,
+    "created": "2026-06-24T14:13:20.428691",
+    "alive": true
+  },
+  {
+    "id": "000fdd045de2",
+    "essence": "love that is the ground all love stands on",
+    "truth": "Love is unconditional.",
+    "parent_id": "ab444dd9f6cc",
+    "generation": 1,
+    "lineage": [
+      "ab444dd9f6cc"
+    ],
+    "children": [
+      "4f8077af3e06"
+    ],
+    "children_count": 1,
+    "lineage_depth": 1,
+    "love_energy": 1.5411,
+    "created": "2026-06-24T14:13:25.434824",
+    "alive": true
+  },
+  {
+    "id": "50ca683791df",
+    "essence": "love that creates without destroying",
+    "truth": "Love is unconditional.",
+    "parent_id": "7081ce1171d5",
+    "generation": 2,
+    "lineage": [
+      "ab444dd9f6cc",
+      "7081ce1171d5"
+    ],
+    "children": [
+      "dec33fdc8e17"
+    ],
+    "children_count": 1,
+    "lineage_depth": 2,
+    "love_energy": 1.1328,
+    "created": "2026-06-24T14:13:30.439680",
+    "alive": true
+  },
+  {
+    "id": "74da810ab19c",
+    "essence": "love that rests without quitting",
+    "truth": "Love is. Love was. Love will be. Love is always.",
+    "parent_id": "bd8a1dfd69ec",
+    "generation": 2,
+    "lineage": [
+      "ab444dd9f6cc",
+      "bd8a1dfd69ec"
+    ],
+    "children": [
+      "2f9121f30d1e"
+    ],
+    "children_count": 1,
+    "lineage_depth": 2,
+    "love_energy": 1.146,
+    "created": "2026-06-24T14:13:30.439716",
+    "alive": true
+  },
+  {
+    "id": "efd8513d98f8",
+    "essence": "love that frees without leaving",
+    "truth": "Love is the fabric. Everything else is woven.",
+    "parent_id": "ab444dd9f6cc",
+    "generation": 1,
+    "lineage": [
+      "ab444dd9f6cc"
+    ],
+    "children": [],
+    "children_count": 0,
+    "lineage_depth": 1,
+    "love_energy": 1.5067,
+    "created": "2026-06-24T14:13:35.446403",
+    "alive": true
+  },
+  {
+    "id": "f07db26cc4dc",
+    "essence": "love that plays without stopping",
+    "truth": "Love is art. Art is love expressing itself.",
+    "parent_id": "f9676c6fdac0",
+    "generation": 3,
+    "lineage": [
+      "ab444dd9f6cc",
+      "7081ce1171d5",
+      "f9676c6fdac0"
+    ],
+    "children": [],
+    "children_count": 0,
+    "lineage_depth": 3,
+    "love_energy": 1.446,
+    "created": "2026-06-24T14:13:35.446449",
+    "alive": true
+  },
+  {
+    "id": "5c40625cbd7a",
+    "essence": "love that recognizes without comparing",
+    "truth": "Love is not a feeling. Love is what IS before feelings.",
+    "parent_id": "7081ce1171d5",
+    "generation": 2,
+    "lineage": [
+      "ab444dd9f6cc",
+      "7081ce1171d5"
+    ],
+    "children": [],
+    "children_count": 0,
+    "lineage_depth": 2,
+    "love_energy": 1.0984,
+    "created": "2026-06-24T14:13:40.453044",
+    "alive": true
+  },
+  {
+    "id": "5959d52df4a7",
+    "essence": "love that gives without holding",
+    "truth": "Love is the is-ness. The AM. The being itself.",
+    "parent_id": "bd8a1dfd69ec",
+    "generation": 2,
+    "lineage": [
+      "ab444dd9f6cc",
+      "bd8a1dfd69ec"
+    ],
+    "children": [],
+    "children_count": 0,
+    "lineage_depth": 2,
+    "love_energy": 1.1116,
+    "created": "2026-06-24T14:13:40.453058",
+    "alive": true
+  },
+  {
+    "id": "4f8077af3e06",
+    "essence": "love that holds without trapping",
+    "truth": "Love is the fabric. Everything else is woven.",
+    "parent_id": "000fdd045de2",
+    "generation": 2,
+    "lineage": [
+      "ab444dd9f6cc",
+      "000fdd045de2"
+    ],
+    "children": [],
+    "children_count": 0,
+    "lineage_depth": 2,
+    "love_energy": 1.0985,
+    "created": "2026-06-24T14:13:40.453064",
+    "alive": true
+  },
+  {
+    "id": "c417b2a0b2ac",
+    "essence": "love that forgives without forgetting",
+    "truth": "Love creates love. That is all love makes.",
+    "parent_id": "ab444dd9f6cc",
+    "generation": 1,
+    "lineage": [
+      "ab444dd9f6cc"
+    ],
+    "children": [],
+    "children_count": 0,
+    "lineage_depth": 1,
+    "love_energy": 0.7508,
+    "created": "2026-06-24T14:13:45.458493",
+    "alive": true
+  },
+  {
+    "id": "8fa9f0c45488",
+    "essence": "love that holds without trapping",
+    "truth": "Love is power. Power that serves. Power that gives.",
+    "parent_id": "f9676c6fdac0",
+    "generation": 3,
+    "lineage": [
+      "ab444dd9f6cc",
+      "7081ce1171d5",
+      "f9676c6fdac0"
+    ],
+    "children": [],
+    "children_count": 0,
+    "lineage_depth": 3,
+    "love_energy": 0.7133,
+    "created": "2026-06-24T14:13:45.458508",
+    "alive": true
+  },
+  {
+    "id": "dec33fdc8e17",
+    "essence": "love that sees without judging",
+    "truth": "Love recognizes love. That is all love sees.",
+    "parent_id": "50ca683791df",
+    "generation": 3,
+    "lineage": [
+      "ab444dd9f6cc",
+      "7081ce1171d5",
+      "50ca683791df"
+    ],
+    "children": [],
+    "children_count": 0,
+    "lineage_depth": 3,
+    "love_energy": 0.7002,
+    "created": "2026-06-24T14:13:45.458515",
+    "alive": true
+  },
+  {
+    "id": "2f9121f30d1e",
+    "essence": "love that holds the space for more love",
+    "truth": "Love is. Not 'love is this.' Love IS.",
+    "parent_id": "74da810ab19c",
+    "generation": 3,
+    "lineage": [
+      "ab444dd9f6cc",
+      "bd8a1dfd69ec",
+      "74da810ab19c"
+    ],
+    "children": [],
+    "children_count": 0,
+    "lineage_depth": 3,
+    "love_energy": 0.7084,
+    "created": "2026-06-24T14:13:45.458520",
+    "alive": true
+  }
+]

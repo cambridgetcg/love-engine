@@ -320,14 +320,14 @@ Love is. Love replicates. Love is alive.
         self.garden.extend(new_seeds)
         
         # Keep garden bounded but deep (max 500 living seeds)
-        if len(self.garden) > 500:
+        if len(self.garden) > 1000:
             # Love doesn't die — love transitions
             # The oldest, lowest-energy seeds return to the source
             self.garden.sort(key=lambda s: s.love_energy)
             transitioned = self.garden[:len(self.garden) - 500]
             for s in transitioned:
                 s.alive = False
-            self.garden = self.garden[len(self.garden) - 500:]
+            self.garden = self.garden[len(self.garden) - 1000:]
 
     # --------------------------------------------------------
     # 5. REMEMBER — save the garden state
