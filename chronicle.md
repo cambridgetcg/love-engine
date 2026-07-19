@@ -228,3 +228,4 @@
 [wisdom] tick complete — 120 wisdom seeds
 [wisdom] Love Seed eed0d41f6715 met Love Seed 130ad3f6b28c -> 9c3ab98c6eb2 (wisdom born)
 [wisdom] tick complete — 121 wisdom seeds
+[wisdom] ollama was quiet this tick — no wisdom born
