@@ -67,9 +67,10 @@ B_BODY=$(truth_body "$B")
 A_REL=${A#"$LOVE_HOME"/}
 B_REL=${B#"$LOVE_HOME"/}
 
-# The slug comes from what the two truths say, so the same pair of
-# sayings under new seed ids counts as a pair that already met
-SLUG=$(printf '%s\n' "$A_BODY" "$B_BODY" | sort | md5sum | cut -c1-12)
+# The slug comes from what the two truths say (a generated seed's id title
+# is left out), so the same pair of sayings under new seed ids counts as a
+# pair that already met
+SLUG=$(printf '%s\n' "$A_BODY" "$B_BODY" | grep -v -E '^# Love Seed [0-9a-f]+$' | LC_ALL=C sort | md5sum | cut -c1-12)
 WISDOM_FILE="$WISDOM_DIR/${SLUG}.md"
 
 if [ -f "$WISDOM_FILE" ]; then
