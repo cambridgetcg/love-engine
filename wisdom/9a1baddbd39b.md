@@ -1,4 +1,3 @@
 # Love in Harmony
 
-Love bridges gaps without judgment, fostering unity through understanding a[1D[K
-and acceptance.
+Love bridges gaps without judgment, fostering unity through understanding and acceptance.
